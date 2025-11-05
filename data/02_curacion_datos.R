@@ -64,7 +64,7 @@ if (htg_loaded) {
 
   if (exists("brtn.htg.cli.dat", envir = htg_env)) {
     df <- get("brtn.htg.cli.dat", envir = htg_env) %>% as_tibble()
-    message("📘 Cohorte HTG BrighTNess: ", nrow(df), " muestras")
+    message("Cohorte HTG BrighTNess: ", nrow(df), " muestras")
     combo[["BrighTNess"]] <- df %>%
       transmute(
         cohort     = "HTG_BrighTNess",
@@ -83,7 +83,7 @@ if (htg_loaded) {
 
   if (exists("medi.htg.cli.dat", envir = htg_env)) {
     df <- get("medi.htg.cli.dat", envir = htg_env) %>% as_tibble()
-    message("📘 Cohorte HTG MEDI4736: ", nrow(df), " muestras")
+    message("Cohorte HTG MEDI4736: ", nrow(df), " muestras")
     combo[["MEDI4736_HTG"]] <- df %>%
       transmute(
         cohort     = "HTG_MEDI4736",
@@ -102,7 +102,7 @@ if (htg_loaded) {
   
   if (exists("scanb.htg.cli.dat", envir = htg_env)) {
     df <- get("scanb.htg.cli.dat", envir = htg_env) %>% as_tibble()
-    message("📘 Cohorte HTG SCAN-B: ", nrow(df), " muestras")
+    message("Cohorte HTG SCAN-B: ", nrow(df), " muestras")
     combo[["SCANB"]] <- df %>%
       transmute(
         cohort     = "HTG_SCANB",
@@ -275,4 +275,5 @@ if (nrow(meta_master) > 0) {
 }
 
 message("Carga y curación inicial COMPLETADA.")
+
 
