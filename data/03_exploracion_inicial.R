@@ -136,7 +136,7 @@ if (!exists("htg_env", envir = .GlobalEnv)) {
   if (file.exists(path_htg_rdata)) {
     htg_env <- new.env()
     load(path_htg_rdata, envir = htg_env)
-    message("✅ htg_env cargado desde: ", path_htg_rdata)}}
+    message("htg_env cargado desde: ", path_htg_rdata)}}
 
 # Ahora, estandarizamos a tibble y calculamos duplicados por cohorte+sample_id
 # (podrían indicar merges incorrectos), y número de NA por campo (guía para
@@ -276,4 +276,5 @@ if (exists("htg_env")) {
 
 
 message("Exploración inicial (QA) completado.")
+
 
