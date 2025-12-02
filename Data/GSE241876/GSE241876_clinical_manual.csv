@@ -1,0 +1,16 @@
+patient_id;response;recist;PDL1_status;alive
+R017;R;PR;;alive
+R020;R;CR;PDL1+;alive
+R022;R;CR;PDL1+;alive
+R010;R;PR;;
+R019;R;SD;;
+R015;R;SD;;
+R008;R;PR;;
+R018;R;PR;;
+R012;R;PR;;
+R001;NR;PD;;
+R009;NR;PD;;
+R002;NR;PD;;
+R016;R;SD;;
+R021;R;SD;;
+R013;R;PR;;
