@@ -22,10 +22,10 @@ Este proyecto utiliza el paquete **renv** para gestionar un entorno reproducible
 
 ### Abrir el proyecto
 
-Se recomienda abrir el archivo de proyecto de RStudio ubicado en:
+Se recomienda abrir el archivo de proyecto de RStudio ubicado en la carpeta principal:
 
 ```
-scripts/TFM.Rproj
+/TFM.Rproj
 ```
 
 ---
