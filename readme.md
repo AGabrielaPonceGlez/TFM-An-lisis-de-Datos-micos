@@ -128,5 +128,5 @@ H{n}_DESCRIPCION.ext
 
 ## Nota
 
-Este repositorio forma parte de un Trabajo de Fin de Máster con fines académicos y reproducibles.
+Este repositorio forma parte del Trabajo de Fin de Máster con fines académicos y reproducibles. Los datos originales pertenecen a sus respectivos estudios y consorcios.
 
